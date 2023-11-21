@@ -11,6 +11,8 @@ public class Main {
         auto1.imprimirDatos();
         auto2.imprimirDatos();
 
+        System.out.println(auto1.getAnio()+ auto2.getAnio());
+
 
     }
 }

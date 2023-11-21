@@ -45,7 +45,8 @@ public class Autos {
 
     public void imprimirDatos(){
 
-        System.out.println(getAnio() + getModelo() +getMarca()+getColor());
+        System.out.println("Año:"+getAnio()+", " +
+                "Modelo:" + getModelo()+", Marca: " +getMarca()+", Color:"+getColor());
 
     }
 }
